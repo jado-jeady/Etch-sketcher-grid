@@ -48,10 +48,10 @@ let input = () => {
 // Rainbow Colors hex values
 let rainbowColors = [
   {
-    hex: 'fac89e',
+    hex: '1D1D1D',
   },
   {
-    hex: 'fac89e',
+    hex: '1D1D1D',
   }
 ];
 
