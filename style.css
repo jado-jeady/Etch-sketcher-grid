@@ -1,0 +1,54 @@
+body {
+  background-color: deepskyblue;
+  text-align: center;
+}
+
+header {
+  margin: 0px auto 30px auto;
+}
+
+#reset {
+  background-color: cadetblue;
+  border: 10px inset cadetblue;
+  border-style: groove;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 30px;
+  padding: 7.5px;
+  margin: 30px auto;
+}
+
+#reset:hover {
+  cursor: pointer;
+  font-size: 32.5px;
+}
+
+main {
+  background-color: black;
+  border: 5px inset black;
+  width: 576px;
+  height: 576px;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  margin: auto auto 159.5px auto;
+}
+
+.square {
+  cursor: crosshair;
+  background-color: white;
+  margin: 0.5px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.removed {
+  display: none;
+}
+
+
+.hover {
+  background-color: black;
+}
